@@ -474,7 +474,7 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-  max-width: 80rem;
+  max-width: 82rem;
   margin-inline: auto;
 }
 
