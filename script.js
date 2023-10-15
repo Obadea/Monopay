@@ -165,7 +165,8 @@ smallGridBox.forEach((cur, i) => {
     boxDetails[i].style.transition = " 0.6s";
     boxDetails[i].style.opacity = "1";
     boxDetails[i].style.transform = "translateY(0rem)";
-    x;
+    boxDetails[i].style.backdropFilter ="blur(7px)";
+    
   });
 });
 
