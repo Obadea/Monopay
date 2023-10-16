@@ -40,6 +40,10 @@ html {
   src: url(./Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
 }
 
+a{
+  color: var(--color-primary-light--gray1)
+}
+
 /* note: header style */
 header {
   text-align: center;
