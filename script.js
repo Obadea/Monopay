@@ -194,7 +194,7 @@ function countToTargetFast(target, domName) {
       }`;
       count = count * 2;
       count2 = count + 27;
-      setTimeout(updateCounter, 150); // Delay for 150 milliseconds
+      setTimeout(updateCounter, 130); // Delay for 150 milliseconds
     }
   }
   updateCounter();
