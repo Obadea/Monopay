@@ -213,3 +213,16 @@ const phone1Observer = new IntersectionObserver(countOnReveal, {
 });
 
 phone1Observer.observe(amountAanimation);
+
+
+
+/////////////////////////////////////////////////////// todo: mobile functionalities
+
+// Mouse Enter Mobile
+smallGridBox.forEach((cur, i) => {
+  cur.addEventListener("click", () => {
+    boxDetails[i].style.transition = " 0.6s";
+    boxDetails[i].style.opacity = "1";
+    boxDetails[i].style.transform = "translateY(0rem)";
+  });
+});
